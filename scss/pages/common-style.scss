@@ -1,0 +1,45 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+/* header */
+.logo-universe {
+  width: 75px;
+}
+
+.width-bottom {
+  @media screen {
+    @media (max-width: 320px) {
+      height: 35px;
+    }
+  }
+}
+
+.container1 {
+  height: auto;
+}
+
+/*footer */
+.rodape {
+  position: absolute;
+  bottom: 0;
+}
+
+.text-center {
+  @media screen {
+    @media (max-width: 425px) {
+      font-size: 15px;
+    }
+    @media (max-width: 320px) {
+      font-size: 12px;
+    }
+  }
+}

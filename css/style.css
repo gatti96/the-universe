@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,400;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Source+Sans+Pro:ital,wght@1,400;1,600;1,700&display=swap");
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+/* header */
+.logo-universe {
+  width: 75px;
+}
+
+@media screen and (max-width: 320px) {
+  .width-bottom {
+    height: 35px;
+  }
+}
+
+.container1 {
+  height: auto;
+}
+
+/*footer */
+.rodape {
+  position: absolute;
+  bottom: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .text-center {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .text-center {
+    font-size: 12px;
+  }
+}
+
+.body-index {
+  background-color: #000000;
+}
+
+.bg-body-index {
+  background-image: url("../../Image/earth-g0fa2f1025_1920.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;
+  color: white;
+}
+
+.tamanho-carrosel {
+  width: 850px;
+}
+
+/*Conteudos*/
+.center-conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+  margin-top: 75px;
+  margin-bottom: 45px;
+}
+@media screen and (max-width: 768px) {
+  .center-conteudo {
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .center-conteudo {
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .center-conteudo {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+}
+
+.title-index {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 85px;
+  margin-top: 35px;
+}
+@media screen and (max-width: 768px) {
+  .title-index {
+    font-size: 55px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .title-index {
+    font-size: 43px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .title-index {
+    font-size: 30px;
+  }
+}
+
+.center-conteudo2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  margin-top: 75px;
+  margin-bottom: 45px;
+}
+@media screen and (max-width: 768px) {
+  .center-conteudo2 {
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .center-conteudo2 {
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .center-conteudo2 {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+}
+
+.bg-conteudo-index {
+  background-color: #111010;
+  padding: 30px;
+}
+@media screen and (max-width: 768px) {
+  .bg-conteudo-index {
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .bg-conteudo-index {
+    padding: 13px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .bg-conteudo-index {
+    padding: 10px;
+  }
+}
+
+.image-conteudo {
+  width: 200px;
+}
+@media screen and (max-width: 768px) {
+  .image-conteudo {
+    width: 185px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .image-conteudo {
+    width: 170px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .image-conteudo {
+    width: 150px;
+  }
+}
+
+.text-conteudo {
+  width: 300px;
+}
+@media screen and (max-width: 768px) {
+  .text-conteudo {
+    width: 270px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .text-conteudo {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .text-conteudo {
+    width: 200px;
+    margin-bottom: -10px;
+  }
+}
+
+.size-text-index {
+  font-size: 14px;
+  text-align: justify;
+  font-family: "Source Sans Pro", sans-serif;
+}
+@media screen and (max-width: 320px) {
+  .size-text-index {
+    font-size: 13px;
+  }
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*# sourceMappingURL=style.css.map */
