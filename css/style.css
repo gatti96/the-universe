@@ -50,7 +50,7 @@ html {
 }
 
 .bg-body-index {
-  background-image: url("../../Image/earth-g0fa2f1025_1920.jpg");
+  background-image: url("/../Image/earth-g0fa2f1025_1920.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
@@ -211,6 +211,55 @@ html {
 @media screen and (max-width: 320px) {
   .size-text-index {
     font-size: 13px;
+  }
+}
+
+.ajuste-video {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.video-index-conteudo {
+  width: 500px;
+  height: 300px;
+}
+@media screen and (max-width: 615px) {
+  .video-index-conteudo {
+    width: 330px;
+    height: 170px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .video-index-conteudo {
+    width: 310px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .video-index-conteudo {
+    width: 220px;
+    height: 150px;
+  }
+}
+
+.text-video {
+  font-size: 25px;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-bottom: -40px;
+}
+@media screen and (max-width: 615px) {
+  .text-video {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .text-video {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .text-video {
+    font-size: 16px;
   }
 }
 
