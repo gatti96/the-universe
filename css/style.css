@@ -263,6 +263,93 @@ html {
   }
 }
 
+/* estilos do texto com colapse */
+.text-universe {
+  width: 85%;
+}
+@media screen and (max-width: 700px) {
+  .text-universe {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .text-universe {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .text-universe {
+    width: 99%;
+  }
+}
+
+.text-universe h3 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+@media screen and (max-width: 425px) {
+  .text-universe h3 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .text-universe h3 {
+    font-size: 18px;
+  }
+}
+
+.text-universe p {
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: justify;
+}
+@media screen and (max-width: 425px) {
+  .text-universe p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .text-universe p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .text-tela-maior {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 801px) {
+  .text-tela-menor {
+    display: none;
+  }
+}
+
+.text-2 {
+  margin-top: 15px;
+}
+
+.text-collapse {
+  height: auto;
+}
+
+@media screen and (max-width: 425px) {
+  .botao-colapse {
+    width: 100px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .botao-colapse {
+    width: 100px;
+    padding: 4px;
+    font-size: 12px;
+  }
+}
+
+/* fim estilos colapse */
 * {
   margin: 0px;
   padding: 0px;

@@ -183,3 +183,85 @@
     }
   }
 }
+/* estilos do texto com colapse */
+.text-universe {
+  width: 85%;
+  @media screen {
+    @media (max-width: 700px) {
+      width: 90%;
+    }
+    @media (max-width: 425px) {
+      width: 95%;
+    }
+    @media (max-width: 320px) {
+      width: 99%;
+    }
+  }
+}
+
+.text-universe h3 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-family: "Montserrat", sans-serif;
+  @media screen {
+    @media (max-width: 425px) {
+      font-size: 20px;
+    }
+    @media (max-width: 320px) {
+      font-size: 18px;
+    }
+  }
+}
+
+.text-universe p {
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: justify;
+  @media screen {
+    @media (max-width: 425px) {
+      font-size: 14px;
+    }
+    @media (max-width: 320px) {
+      font-size: 12px;
+    }
+  }
+}
+
+.text-tela-maior {
+  @media screen {
+    @media (max-width: 800px) {
+      display: none;
+    }
+  }
+}
+
+.text-tela-menor {
+  @media screen {
+    @media (min-width: 801px) {
+      display: none;
+    }
+  }
+}
+
+.text-2 {
+  margin-top: 15px;
+}
+
+.text-collapse {
+  height: auto;
+}
+
+.botao-colapse {
+  @media screen {
+    @media (max-width: 425px) {
+      width: 100px;
+      font-size: 14px;
+    }
+    @media (max-width: 320px) {
+      width: 100px;
+      padding: 4px;
+      font-size: 12px;
+    }
+  }
+}
+/* fim estilos colapse */
