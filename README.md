@@ -1,3 +1,7 @@
+
+![logo do projeto é um astronauta voando em cima de um foguete](https://user-images.githubusercontent.com/107943147/194571189-5ed3b7b7-e951-4212-9977-39c7b6f97be5.png)
+
+
 # The Universe
 
 Projeto particular em que usei para praticar alguns conhecimentos adquiridos.
