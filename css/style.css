@@ -34,6 +34,9 @@ html {
   bottom: 0;
 }
 
+.text-center {
+  color: #fff;
+}
 @media screen and (max-width: 425px) {
   .text-center {
     font-size: 15px;
@@ -350,6 +353,99 @@ html {
 }
 
 /* fim estilos colapse */
+.bg-color-about {
+  background-color: #000000;
+}
+
+.container-about {
+  height: auto;
+  color: white;
+}
+
+.center-about {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.img-about {
+  width: 500px;
+}
+@media screen and (max-width: 769px) {
+  .img-about {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 625px) {
+  .img-about {
+    width: 320px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .img-about {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .img-about {
+    width: 250px;
+  }
+}
+
+.size-text-about {
+  width: 600px;
+  margin-bottom: 120px;
+}
+@media screen and (max-width: 769px) {
+  .size-text-about {
+    width: 80%;
+    margin-bottom: 90px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .size-text-about {
+    width: 280px;
+    margin-bottom: 80px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .size-text-about {
+    width: 250px;
+    margin-bottom: 80px;
+  }
+}
+
+.text-about {
+  font-size: 18px;
+  text-align: justify;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", sans-serif;
+}
+@media screen and (max-width: 320px) {
+  .text-about {
+    font-size: 15px;
+  }
+}
+
+.bg-color-new {
+  background-color: #000000;
+}
+
+.container-new {
+  height: 100vh;
+}
+
+.bg-color-contact {
+  background-color: #000000;
+}
+
+.container-contact {
+  height: 100vh;
+}
+
 * {
   margin: 0px;
   padding: 0px;
