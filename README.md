@@ -10,6 +10,6 @@
 
 :trophy: Utilizei também o Bootstrap e a biblioteca AOS (Animate On Scroll Library).
 
-:man_technologist: Projeto ainda em andamento...
+:man_technologist: Projeto finalizado no momento
 
 :desktop_computer: :earth_americas: Deploy: [Clique aqui](https://gatti96.github.io/the-universe/)

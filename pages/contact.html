@@ -69,6 +69,7 @@
                     Menu
                   </a>
                   <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="../index.html">HOME</a></li></li>
                     <li>
                       <a class="dropdown-item" href="./contact.html">Contato</a>
                     </li>
@@ -104,7 +105,56 @@
         </nav>
       </header>
       <!--fim menu-->
-      <main></main>
+      <main class="center-contact">
+        <div><h1 class="title-contact">Entre em contato</h1></div>
+
+        <form action="" class="form">
+          <div class="center-form form-row">
+            <div class="form-group">
+              <label for="name" class="form-label">Nome:</label>
+              <input
+                class="form-control input-contact"
+                type="text"
+                id="name"
+                placeholder="Digite seu nome"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">E-mail:</label>
+              <input
+                type="email"
+                class="form-control input-contact"
+                id="email"
+                placeholder="E-mail"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="body" class="form-label">Assunto:</label>
+              <select
+                class="form-control form-select"
+                name="assunto"
+                id="assunto"
+                required
+              >
+                <option value=""></option>
+                <option value="informacao">Informação</option>
+                <option value="reclamacao">Reclamação</option>
+                <option value="sugestao">Sugestão</option>
+                <option value="outros">Outros</option>
+              </select>
+            </div>
+            <div>
+              <button type="submit" class="btn btn-dark submit">Enviar</button>
+            </div>
+          </div>
+        </form>
+
+        <div>
+          <h2 class="text-tanks">Obrigado por entrar em contato!</h2>
+        </div>
+      </main>
     </div>
     <!--Footer-->
     <div class="container">
